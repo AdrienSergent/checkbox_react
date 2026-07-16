@@ -1,0 +1,47 @@
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.checkbox-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border: 1px solid #d7d7d7;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.checkbox-container h1 {
+  margin-top: 0;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.checkbox-item input {
+  width: 18px;
+  height: 18px;
+}
+
+.select-all {
+  font-weight: bold;
+}
+
+.separator {
+  height: 1px;
+  margin: 12px 0;
+  background-color: #d7d7d7;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+}
